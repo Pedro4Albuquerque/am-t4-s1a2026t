@@ -4,7 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyNtvJ2PS6P2C4OBa/+vOvT8",
+      "authorship_tag": "ABX9TyPpKgvUDhEb3eKcvB0c9+sz",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -122,7 +122,7 @@
       "metadata": {
         "id": "YAChmQcfTlD3"
       },
-      "execution_count": 43,
+      "execution_count": 65,
       "outputs": []
     },
     {
@@ -145,9 +145,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "ZuLEZRyaVdvc",
-        "outputId": "1447117f-51b9-4d56-e1ab-0a359ab5923b"
+        "outputId": "7299099f-5511-4586-92c9-c20b3876dab2"
       },
-      "execution_count": 27,
+      "execution_count": 66,
       "outputs": [
         {
           "output_type": "stream",
@@ -173,40 +173,49 @@
       "metadata": {
         "id": "J6Gull54W5tD"
       },
-      "execution_count": 46,
+      "execution_count": 67,
       "outputs": []
     },
     {
       "cell_type": "code",
       "source": [
         "for i in range(12):\n",
-        "  print(eq[i])"
+        "  if(i % 2 == 0 ):\n",
+        "    if (eq[i] != 'numero sem raiz'):\n",
+        "      print('x1: [',eq[i],']')\n",
+        "  else:\n",
+        "    if (eq[i] != 'numero sem raiz'):\n",
+        "        print('X2: [', eq[i], ']\\n')\n"
       ],
       "metadata": {
         "colab": {
           "base_uri": "https://localhost:8080/"
         },
         "id": "shSY_oB4ZXV_",
-        "outputId": "d04cd7ec-dc41-4aad-8926-2bfc9217ae6d"
+        "outputId": "c96405d0-c1ff-4ad3-d3aa-3f735a2da1d7"
       },
-      "execution_count": 55,
+      "execution_count": 73,
       "outputs": [
         {
           "output_type": "stream",
           "name": "stdout",
           "text": [
-            "(1, 8, -5)\n",
-            "(2, -1, 8)\n",
-            "(4, 5, 8)\n",
-            "(3, 1, -10)\n",
-            "(2, 9, -6)\n",
-            "-2\n",
-            "0\n",
-            "8\n",
-            "-1\n",
-            "5\n",
-            "-1\n",
-            "0\n"
+            "x1: [ 2.0 ]\n",
+            "X2: [ 1.0 ]\n",
+            "\n",
+            "x1: [ 1.434258545910665 ]\n",
+            "X2: [ 0.2324081207560018 ]\n",
+            "\n",
+            "x1: [ 0.0 ]\n",
+            "X2: [ -1.25 ]\n",
+            "\n",
+            "x1: [ -1.8708286933869707 ]\n",
+            "X2: [ 1.8708286933869707 ]\n",
+            "\n",
+            "X2: [ -32 ]\n",
+            "\n",
+            "X2: [ -144 ]\n",
+            "\n"
           ]
         }
       ]
