@@ -1,0 +1,105 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyOe24/Pbl3fwEUeX9v3RqTk",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Pedro4Albuquerque/am-t4-s1a2026t/blob/main/am-t4-s1a2026\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "#Introdução a Python"
+      ],
+      "metadata": {
+        "id": "iaYQONLSLT6D"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [],
+      "metadata": {
+        "id": "pTbsqO9lSxAw"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a=2\n",
+        "b=3\n",
+        "print('A soma = ', a+b)"
+      ],
+      "metadata": {
+        "id": "uFvXcTHYNgIN",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "280128bf-69ba-4d4c-8f12-45582598fa40"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "A soma =  5\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "##Segunda Camada"
+      ],
+      "metadata": {
+        "id": "6NInxqOUNtYW"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "c=4\n",
+        "d=5\n",
+        "print('a multiplicação e: ', c*d)"
+      ],
+      "metadata": {
+        "id": "4cBBF9LmNyTO",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "83faa843-907d-4aba-f96c-d550d56914c8"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "a multiplicação e:  20\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
