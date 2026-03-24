@@ -4,7 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyOe24/Pbl3fwEUeX9v3RqTk",
+      "authorship_tag": "ABX9TyPXZY2bAtxovKtcfn/c6SUi",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -33,13 +33,6 @@
       ],
       "metadata": {
         "id": "iaYQONLSLT6D"
-      }
-    },
-    {
-      "cell_type": "markdown",
-      "source": [],
-      "metadata": {
-        "id": "pTbsqO9lSxAw"
       }
     },
     {
@@ -97,6 +90,70 @@
           "name": "stdout",
           "text": [
             "a multiplicação e:  20\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "## Bliblioteca a Funções de Pythom"
+      ],
+      "metadata": {
+        "id": "pTbsqO9lSxAw"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import math\n",
+        "\n",
+        "def equacao2grau(a, b, c):\n",
+        "  delta = b**2 - 4*a*c\n",
+        "\n",
+        "  if (delta < 0 ):\n",
+        "    return 'numero sem raiz', delta\n",
+        "\n",
+        "  x1 = (-b + math.sqrt(delta))/ (2*a)\n",
+        "  x2 = (-b - math.sqrt(delta))/ (2*a)\n",
+        "\n",
+        "  return x1 , x2"
+      ],
+      "metadata": {
+        "id": "YAChmQcfTlD3"
+      },
+      "execution_count": 26,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "###Teste e Função Matematica"
+      ],
+      "metadata": {
+        "id": "UiRfQ-3tVHsL"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "eq = equacao2grau(1, -3, 2)\n",
+        "print(eq)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "ZuLEZRyaVdvc",
+        "outputId": "1447117f-51b9-4d56-e1ab-0a359ab5923b"
+      },
+      "execution_count": 27,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "(2.0, 1.0)\n"
           ]
         }
       ]
